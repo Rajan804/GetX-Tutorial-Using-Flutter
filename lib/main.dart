@@ -1,3 +1,4 @@
+import 'package:first_tutorial1/button.dart';
 import 'package:first_tutorial1/homeScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Homescreen(),
+      home: Button(),
     );
   }
 }

@@ -8,7 +8,7 @@ class Button extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('GetX Tutorial'),
+        title: Text('GetX Tutorial SnackBar'),
         centerTitle: true,
       ),
       body: Column(

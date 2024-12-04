@@ -1,3 +1,5 @@
+import 'package:first_tutorial1/ChangeLanguage/LangHome.dart';
+import 'package:first_tutorial1/ChangeLanguage/language.dart';
 import 'package:first_tutorial1/RoutINGetx/home_screen.dart';
 import 'package:first_tutorial1/RoutINGetx/screen_one.dart';
 import 'package:first_tutorial1/RoutINGetx/screen_two.dart';
@@ -19,13 +21,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: homeScreen(),
+      locale: Locale('en', 'US'),
+      translations: Language(),
+      fallbackLocale: Locale('en', 'US'),
+      home: Langhome(),
       //initialRoute: '/homeScreen',
-      getPages: [
-        GetPage(name: '/homeScreen', page: () => homeScreen()),
-        GetPage(name: '/ScreenOne', page: () => ScreenOne()),
-        GetPage(name: '/ScreenTwo', page: () => ScreenTwo())
-      ],
+      // getPages: [
+      //   GetPage(name: '/homeScreen', page: () => homeScreen()),
+      //   GetPage(name: '/ScreenOne', page: () => ScreenOne()),
+      //   GetPage(name: '/ScreenTwo', page: () => ScreenTwo())
+      // ],
     );
   }
 }

@@ -37,6 +37,7 @@
 
 // State Management
 import 'package:first_tutorial1/StateManagement/HomeStateMan.dart';
+import 'package:first_tutorial1/StateManagement2/Home_opacity.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -54,7 +55,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Homestateman(),
+      // home: Homestateman(),
+      home: HomeOpacity(),
     );
   }
 }

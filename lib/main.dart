@@ -36,6 +36,7 @@
 // }
 
 // State Management
+import 'package:first_tutorial1/AddFavInGetX/FavHome.dart';
 import 'package:first_tutorial1/GetXwithSwitchBtn/SwithBtnHome.dart';
 import 'package:first_tutorial1/StateManagement/HomeStateMan.dart';
 import 'package:first_tutorial1/StateManagement2/Home_opacity.dart';
@@ -58,7 +59,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: Homestateman(),
       //home: HomeOpacity(),
-      home: Swithbtnhome(),
+      // home: Swithbtnhome(),
+      home: Favhome(),
     );
   }
 }

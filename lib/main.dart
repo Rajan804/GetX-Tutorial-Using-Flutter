@@ -36,6 +36,7 @@
 // }
 
 // State Management
+import 'package:first_tutorial1/GetXwithSwitchBtn/SwithBtnHome.dart';
 import 'package:first_tutorial1/StateManagement/HomeStateMan.dart';
 import 'package:first_tutorial1/StateManagement2/Home_opacity.dart';
 import 'package:flutter/material.dart';
@@ -56,7 +57,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: Homestateman(),
-      home: HomeOpacity(),
+      //home: HomeOpacity(),
+      home: Swithbtnhome(),
     );
   }
 }

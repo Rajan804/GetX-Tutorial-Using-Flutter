@@ -40,6 +40,7 @@ import 'package:first_tutorial1/AddFavInGetX/FavHome.dart';
 import 'package:first_tutorial1/GetXwithSwitchBtn/SwithBtnHome.dart';
 import 'package:first_tutorial1/StateManagement/HomeStateMan.dart';
 import 'package:first_tutorial1/StateManagement2/Home_opacity.dart';
+import 'package:first_tutorial1/takeImgFromCamOrGallery/TakeImgHome.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -60,7 +61,8 @@ class MyApp extends StatelessWidget {
       // home: Homestateman(),
       //home: HomeOpacity(),
       // home: Swithbtnhome(),
-      home: Favhome(),
+      //home: Favhome(),
+      home: Takeimghome(),
     );
   }
 }

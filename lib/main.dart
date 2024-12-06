@@ -38,6 +38,7 @@
 // State Management
 import 'package:first_tutorial1/AddFavInGetX/FavHome.dart';
 import 'package:first_tutorial1/GetXwithSwitchBtn/SwithBtnHome.dart';
+import 'package:first_tutorial1/LoginSignUpWithGetx/LoginSingHome.dart';
 import 'package:first_tutorial1/StateManagement/HomeStateMan.dart';
 import 'package:first_tutorial1/StateManagement2/Home_opacity.dart';
 import 'package:first_tutorial1/takeImgFromCamOrGallery/TakeImgHome.dart';
@@ -62,7 +63,8 @@ class MyApp extends StatelessWidget {
       //home: HomeOpacity(),
       // home: Swithbtnhome(),
       //home: Favhome(),
-      home: Takeimghome(),
+      //home: Takeimghome(),
+      home: Loginsinghome(),
     );
   }
 }
